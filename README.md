@@ -15,7 +15,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://vitgri1.github.io/03-5-Egg-science-2/
 
-Design: [Egg](https://raw.githubusercontent.com/03-5-Egg-science-2/main/pic/Screens-Egg-in-Bottle-Science-Projects.png) [from](https://sciencing.com/egg-bottle-science-projects-7945233.html)
+Design: [Egg](https://raw.githubusercontent.com/vitgri1/03-5-Egg-science-2/main/pic/Screens-Egg-in-Bottle-Science-Projects.png) [from](https://sciencing.com/egg-bottle-science-projects-7945233.html)
 
 
 ## 🎯 Project features/goals
