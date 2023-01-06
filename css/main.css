@@ -11,3 +11,75 @@ padding: 0;
     margin-left: calc(50% - 600px);
     background-color: lightcoral;
 }
+
+.logo{
+    display: inline-block;
+    background-color: blue; /*delete*/
+    height: 42px;
+    width: 200px;
+    font-size: 32px;
+    line-height: 1em;
+    color: #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo > img{
+    float: left;
+}
+
+.logo > div{
+    float: left;
+    margin: 6px 2px;
+}
+
+.top-menu{
+    width: 650px;
+    height: 42px;
+    display: inline-block;
+    background-color: aquamarine;
+    margin-left: 20px;
+    text-transform: uppercase;
+    line-height: 1em;
+    font-size: 16px;
+}
+
+.fa{
+    color: #fff;
+    padding: 0.25em;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.top-menu-item{
+    float: left;
+    text-decoration: none;
+    color: #000;
+    padding: 9px 26px;
+}
+.top-menu-item:hover{
+    background-color: chartreuse;
+}
+
+.search-bar{
+    width: 130px;
+    float: right;
+    height: 30px;
+    margin-top: 6px;
+    border: 1px solid #00000088;
+    border-radius: 21px;
+    color: gray;
+    font-size: 20px;
+    line-height: 1em;
+    text-align: right;
+}
+
+.search-bar > .fa{
+    color: gray;
+    padding: 0.25em;
+    margin-left: 30px;
+    margin-right: 2px;
+    background-color: transparent;
+}
+
