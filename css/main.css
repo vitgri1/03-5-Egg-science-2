@@ -35,7 +35,7 @@ padding: 0;
 }
 
 .top-menu{
-    width: 650px;
+    /* width: 600px; */
     height: 42px;
     display: inline-block;
     margin-left: 20px;
@@ -73,6 +73,9 @@ padding: 0;
     color: #000;
     padding: 9px 26px;
 }
+.top-menu-item > p {
+    display: inline-block;
+}
 
 .top-menu-item:hover{
     background-color: chartreuse;
@@ -105,8 +108,17 @@ padding: 0;
 .search-bar > .fa{
     float: right;
     color: gray;
-    margin-right: 2px;
     background-color: transparent;
+    border: none;
+}
+
+.burger {
+    text-decoration: none;
+    float: right;
+    margin: 9px;
+    color: #000;
+    background-color:transparent;
+    display: none;
 }
 
 .site-navigation{
@@ -128,6 +140,14 @@ padding: 0;
     display: none;
 }
 
+/* MAIN */
+
+main.container {
+    display: flex;
+    gap: 45px;
+    justify-content: space-between;
+}
+
 .left-column{
     float: left;
     width: 870px;
@@ -144,6 +164,7 @@ padding: 0;
     float: left;
     position: relative;
     width: 100%;
+    user-select: none;
 }
 
 .main-img{
@@ -214,8 +235,6 @@ padding: 0;
 }
 
 .right-column{
-    margin-left: 45px;
-    float: left;
     width: 285px;
     margin-top: 100px;
 }
@@ -223,6 +242,7 @@ padding: 0;
 .ad-image{
     float: left;
     width: 100%;
+    user-select: none;
 }
 .ad-text{
     float: left;
@@ -231,6 +251,7 @@ padding: 0;
     margin-top: 1em;
     margin-left: 1em;
     font-size: 16px;
+    color: #000;
 }
 
 .ad-text > span{
@@ -239,4 +260,49 @@ padding: 0;
     border-radius: 2em;
     padding: 0.05em 0.75em;
     background-color: #1597FF;
+}
+
+
+@media (max-width: 1200px) {
+    .container{
+        width: 900px;
+        margin-left: calc(50% - 450px);
+    }
+    
+    .top-menu-item > p{
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .container{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .container{
+        gap: 0;
+    }
+
+    .right-column{
+        display: none;
+    }
+
+}
+
+@media (max-width: 660px) {
+    .center-column {
+        width: 100%;
+    }
+    .top-menu-item {
+        padding: 9px;
+    }
+}
+
+@media (max-width: 525px) {
+    .top-menu,
+    .search-bar {
+        display: none;
+    }
+    .burger {display: inline-block;}
 }
